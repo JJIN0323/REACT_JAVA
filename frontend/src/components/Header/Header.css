@@ -1,0 +1,15 @@
+/* HEADER - WIRTE BY HYEJIN */
+
+.header {
+    width: 35vw;
+    height: 100vh;
+}
+
+.header > .headerTtitle {
+    font-size: 2em;
+    color: #000000;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    padding-top: 2rem;
+    line-height: 8rem;
+}

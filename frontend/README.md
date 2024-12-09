@@ -1,0 +1,1 @@
+This is a React frontend for the Java Spring Boot backend.

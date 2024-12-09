@@ -1,0 +1,57 @@
+/* Board 전체 컨테이너 */
+.board {
+    display: block;
+    text-align: center;
+    padding: 0 0.5rem;
+    margin-bottom: 7rem;
+}
+
+/* 제목 스타일 */
+.boardTitle {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+/* 리뷰 리스트 컨테이너 */
+.reviewList {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-bottom: 0.8rem;
+}
+
+/* 리뷰 카드 */
+.reviewCard {
+    width: 40%;
+    border: 1px solid #e0e0e0;
+    padding: 0.8rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* 리뷰 이미지 영역 */
+.reviewImage {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.8rem;
+    justify-content: center;
+}
+
+/* 썸네일 */
+.thumbnail {
+    width: 100%;
+    height: 6rem;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+/* 리뷰 텍스트 */
+.reviewText {
+    font-size: 0.9rem;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}

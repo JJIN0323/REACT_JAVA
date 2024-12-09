@@ -1,0 +1,65 @@
+/* APP - WIRTE BY HYEJIN */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+::selection {
+  background-color: #000000; /* 선택된 텍스트의 배경색 */
+  color: #ffffff; /* 선택된 텍스트의 글자색 */
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* 스크롤바 커스텀 */
+body::-webkit-scrollbar {
+  width: 0.5rem; /* 스크롤바 너비 설정 */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* 스크롤바 트랙(배경) 색상 */
+  border-radius: 0.25rem; /* 모서리를 둥글게 */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #333; /* 스크롤바 핸들 색상 */
+  border-radius: 0.25rem; /* 핸들 모서리를 둥글게 */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* 핸들 호버 시 색상 */
+}
+
+/* Firefox용 스크롤바 커스텀 */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #333 #f1f1f1;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.background {
+  position: relative;
+  left: -100%;
+  bottom: -50%;
+  width: 300%;
+  height: 100%;
+  z-index: -99;
+  background-color: #f4f4f4;
+  transform: rotate(172deg);
+}
+
+ul, ol {
+  list-style: none;
+}
+
+hr {
+  border-color: rgba(232, 232, 232, 0.5);
+  width: 90%;
+}
