@@ -19,7 +19,7 @@ src/ <br/>
 │   │   │   ├── User.java <br/>
 │   │   │   ├── Post.java <br/>
 │   │   │   ├── Visit.java <br/>
-│   │   ├── service/
+│   │   ├── service/<br/>
 │   │   │   ├── AuthService.java <br/>
 │   │   │   ├── BoardService.java <br/>
 │   │   │   ├── AdminService.java <br/>
